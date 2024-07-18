@@ -1,19 +1,25 @@
 <section> 
     <article>
         <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
-        <section class="listing-description">
+        <section style="padding-left: 3.5%;" class="listing-description">
             <h2 class="listing-heading">{{imovel?.nome}}</h2>
             <p class="listing-location">{{imovel?.cidade}}, {{imovel?.estado }}</p>
         </section>
 
-        <section class="listing-features">
+        <section style="padding-left: 3.5%;" class="listing-features">
             <h2 class="section-heading">Informações Adicionais</h2>
             <ul>
                 @for(info of imovel?.adicionais; track $index){
-                <li>{{info.chave}}: {{info.valor}}</li>
+                <li class="list" >{{info.chave}}: {{info.valor}}</li>
                 }
             </ul>
         </section>
+
+        <div style="padding-left: 3%;">
+            <button type="button" class="primary alinha">Alugar</button>
+            <button type="button" class="primary alinha">Comprar</button>
+            <button type="button" class="primary alinha">Calcular Financiamento</button>
+        </div>
 
     </article>
 </section>
