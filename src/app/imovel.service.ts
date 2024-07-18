@@ -17,6 +17,7 @@ export class ImovelService {
       "longitude": "78.4439632",
       "favorito": false,
       "tipo": "true",
+      "valor": 0,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -46,7 +47,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "É um bueiro...tem um cheiro horrível, uma aparência horrível, tudo horrível...e tem o Luís"
         }
-      ]
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 2,
@@ -58,6 +74,7 @@ export class ImovelService {
       "longitude": "5.522414406325261",
       "favorito": false,
       "tipo": "true",
+      "valor": 2000000000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -87,7 +104,9 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Uma casa aconchegante e humilde para deixar seu cachorrinho morar."
         }
-      ]
+      ],
+      "aluguel": [],
+      "financiamento": []
     },
     {
       "id": 3,
@@ -99,13 +118,28 @@ export class ImovelService {
       "longitude": " -70.10375314139836",
       "favorito": false,
       "tipo": "true",
+      "valor": 150000,
       "adicionais": [
         {
           "chave": '!',
           "valor": "O proprietário ainda não adicionou informações adicionais."
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 4,
@@ -117,6 +151,7 @@ export class ImovelService {
       "longitude": "10.33710119501935",
       "favorito": false,
       "tipo": "false",
+      "valor": 15000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -146,8 +181,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Uma casa pequena, de recomendação, 1 pessoa. Simples, porém aconchegante."
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 5,
@@ -159,6 +208,7 @@ export class ImovelService {
       "longitude": "15.901382735813884",
       "favorito": false,
       "tipo": "true",
+      "valor": 50000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -188,8 +238,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Uma casa na floresta muito bonito e aconchegante, boa para agregar muitas pessoas."
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 6,
@@ -201,6 +265,7 @@ export class ImovelService {
       "longitude": "143.6954346",
       "favorito": false,
       "tipo": "true",
+      "valor": 250000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -230,7 +295,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Um sobrado na vizinhança de JoinVille; Simples, bonita e Acolhedora. (Contém uma pequena casinha de ferramentas)"
         }
-      ]
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 7,
@@ -242,6 +322,7 @@ export class ImovelService {
       "longitude": "-72.7879271",
       "favorito": false,
       "tipo": "true",
+      "valor": 44000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -271,8 +352,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Uma pequena casa em um condomínio de qualidade, o qual têm parquinhos, pequenas praças e uma piscina pública para os *moradores*"
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 8,
@@ -284,6 +379,7 @@ export class ImovelService {
       "longitude": "-43.2107792",
       "favorito": false,
       "tipo": "true",
+      "valor": 450000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -313,8 +409,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Uma casa com design moderno e muito linda. Ótima para festas e famílias grandes."
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 9,
@@ -326,6 +436,7 @@ export class ImovelService {
       "longitude": "63.9345101",
       "favorito": false,
       "tipo": "true",
+      "valor": 150000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -355,8 +466,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Um pequeno sobrado acolhedor com design retrô. Uma ótima casa para casais!"
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 10,
@@ -368,6 +493,7 @@ export class ImovelService {
       "longitude": "-46.86232292728119",
       "favorito": false,
       "tipo": "true",
+      "valor": 200000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -397,8 +523,22 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "Uma casa com design moderno e muito linda. Ótima para festas e famílias bem grandonas."
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 11,
@@ -410,6 +550,7 @@ export class ImovelService {
       "longitude": "-47.133192377621064",
       "favorito": false,
       "tipo": "false",
+      "valor": 35000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -439,19 +580,34 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "É um bueiro...tem um cheiro horrível, uma aparência horrível, tudo horrível...e tem o Luís"
         }
-      ]
-
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
     },
     {
       "id": 12,
       "url_foto": " casasasa.jpg",
-      "nome": "Casa 10",
+      "nome": "Mansão Elegante",
       "cidade": "Cabo Frio",
       "estado": "São Paulo",
       "latitude": "-68.1303839",
       "longitude": "-67.105728",
       "favorito": false,
       "tipo": "true",
+      "valor": 325000,
       "adicionais": [
         {
           "chave": "Wi-Fi",
@@ -481,9 +637,23 @@ export class ImovelService {
           "chave": "Descrição",
           "valor": "É um bueiro...tem um cheiro horrível, uma aparência horrível, tudo horrível...e tem o Luís"
         }
-      ]
-
-    },
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": "R$00,00"
+        },
+        {
+          "chave": "Alguel semestral",
+          "valor": "R$00,00"
+        }
+      ],
+      "financiamento": []
+    }
   ]
 
   buscarTodosImoveis(): Imovel[] {

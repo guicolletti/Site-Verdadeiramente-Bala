@@ -1,0 +1,40 @@
+<section class="content">
+    <article>
+
+        <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
+        <section style="padding-left: 3.5%;" class="listing-description">
+            <h2 class="listing-heading">{{imovel?.nome}}</h2>
+            <p class="listing-location">{{imovel?.cidade}}, {{imovel?.estado }}</p>
+            <p class="valor" for="valorImovel">Valor do Imóvel: R${{ imovel?.valor | number:'1.2-2' }}</p>
+
+        </section>
+
+        <section style="padding-left: 3.5%;" class="listing-features">
+            <h2 class="section-heading">Financiamento: </h2>
+        </section>
+
+        <div style="padding-left: 3.5%;">
+            <label  for="">Valor entrada: </label>
+            <input type="number" [(ngModel)]="valorEntrada" />
+            {{ valorEntrada }}
+
+            <label for="">Prazo em Meses: </label>
+            <select class="custom-select">
+                <option value="">Selecione um Prazo</option>
+                <option value="100">100</option>
+                <option value="160">160</option>
+                <option value="360">360</option>
+            </select>
+
+            <br/><br/>
+            <button class="primary" (click)="Calcular()" >Calcular </button>
+            <h3>Valor Parcela: R${{ valorParcela | number:'1.2-2' }}</h3>
+        
+
+        </div>
+
+    </article>
+
+    <img (click)="voltar()" style="padding-left: 3.5%;" alt="Seta" class="Seta" src="vinte.png">
+
+</section>

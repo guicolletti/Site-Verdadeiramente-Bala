@@ -10,10 +10,11 @@ body {
 }
 
 :root {
-    --primary-color: #605DC8;
+    --primary-color: #7a4ed4;
     --secondary-color: #8B89E6;
-    --accent-color: #e8e7fa;
+    --accent-color: rgb(233, 215, 245);
     --shadow-color: #E8E8E8;
+    background-color: rgb(240, 235, 244);
 }
 
 button.primary {
@@ -21,9 +22,13 @@ button.primary {
     border: solid 1px var(--primary-color);
     background: var(--primary-color);
     color: white;
-    border-radius: 8px;
+    border-radius: 11px;
 }
 
 .alinha {
   margin-left: 5px;
+}
+
+.cursor {
+    cursor: pointer;
 }

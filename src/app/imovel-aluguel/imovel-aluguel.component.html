@@ -1,5 +1,6 @@
-<section> 
+<section class="content">
     <article>
+
         <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
         <section style="padding-left: 3.5%;" class="listing-description">
             <h2 class="listing-heading">{{imovel?.nome}}</h2>
@@ -9,16 +10,14 @@
         <section style="padding-left: 3.5%;" class="listing-features">
             <h2 class="section-heading">Informações Adicionais</h2>
             <ul>
-                @for(info of imovel?.adicionais; track $index){
+                @for(info of imovel?.aluguel; track $index){
                 <li class="list" >{{info.chave}}: {{info.valor}}</li>
                 }
             </ul>
         </section>
 
-        <div style="padding-left: 3%;">
-            <button type="button" class="primary alinha cursor" (click)="Cassinoo()" >Alugar</button>
-            <button type="button" class="primary alinha cursor" (click)="Financiamento()" >Calcular Financiamento</button>
-        </div>
-
     </article>
+
+<img (click)="voltar()" style="padding-left: 3.5%;" alt="Seta" class="Seta" src="vinte.png">
+
 </section>
